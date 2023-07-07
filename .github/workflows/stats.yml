@@ -2,7 +2,7 @@ name: Pull Request Stats
 
 on:
   pull_request:
-    types: [opened]
+    types: [merged]
 
 jobs:
   stats:
@@ -13,5 +13,10 @@ jobs:
         with:
           period: 7
           charts: true
-          disable-links: true
-          sort-by: 'COMMENTS'
+          limit: 15
+          sort-by: 'REVIEWS'
+          disable-links: false
+          publish-as: 'DESCRIPTION'
+          # telemetry: false
+          # slack-channel: '#demo-pr-stats-integration'
+          # slack-webhook: 'https://hooks.slack.com/services/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'
