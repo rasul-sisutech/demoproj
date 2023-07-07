@@ -13,4 +13,9 @@ jobs:
         with:
           period: 7
           charts: true
-          sort-by: 'COMMENTS'
+          limit: 15
+          sort-by: 'REVIEWS'
+          telemetry: false
+          publish-as: 'DESCRIPTION'
+          slack-channel: '#demo-pr-stats-integration'
+          slack-webhook: 'https://hooks.slack.com/services/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'
