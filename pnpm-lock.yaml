@@ -1,10 +1,5 @@
 lockfileVersion: '6.0'
 
-packages:
-  - "admin"
-  - "client"
-  - "shared"
-
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
