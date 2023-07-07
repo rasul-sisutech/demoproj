@@ -1,0 +1,6 @@
+{
+	"name": "@monorepo/client",
+	"dependencies": {
+		"@monorepo/shared": "workspace:*"
+  }
+}

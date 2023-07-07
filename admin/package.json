@@ -1,0 +1,6 @@
+{
+	"name": "@monorepo/admin",
+	"dependencies": {
+		"@monorepo/shared": "workspace:*"
+  }
+}
