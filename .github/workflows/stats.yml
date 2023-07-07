@@ -2,7 +2,7 @@ name: Pull Request Stats
 
 on:
   pull_request:
-    types: [merged]
+    types: [closed]
 
 jobs:
   stats:
